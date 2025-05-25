@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-primary text-secondary box-border min-h-screen;
+  }
+}
+
+@layer components {
+  .btn-link {
+    @apply flex justify-center items-center gap-4 border-2 border-accent rounded-lg py-5 w-1/2 text-xl font-semibold text-secondary font-montserrat transition-colors hover:bg-hover;
+  }
+}
