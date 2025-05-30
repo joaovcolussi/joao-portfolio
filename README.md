@@ -37,7 +37,7 @@ Para executar este projeto em sua máquina local, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/joaovcolussi/joao-portfolio.git](https://github.com/joaovcolussi/joao-portfolio.git)
+    git clone https://github.com/joaovcolussi/joao-portfolio.git
     cd joao-portfolio
     ```
 
